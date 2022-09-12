@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.pageTitle{
+	background-color:#3298cc;
+	height:80px;
+	margin:0px;
+	padding-left:30px;
+	padding-top:15px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:300%;
+}
+nav{
+    height:28px;
+	background-color:#333232;
+	font-family:Century Gothic;
+	padding:10px 10px 0px 10px;
+}
+nav a{
+	margin-left:25px;
+}
+.pageDescription{
+	padding:0px 0px 0px 50px;
+	font-family:Arial, sans-serif;
+	font-size:13.64px;
+	width:1001px;
+}
+.Heading{
+	padding-left:50px;
+	font-size:16.5px;
+	font-family:Arial, sans-serif;
+}
+a:link{
+color:white;
+text-decoration:none;
+font-weight:bolder;
+}
+#pageContent {
+    margin:30px 50px;
+    padding: 0px;
+}
+.keyPoints {
+    border: 1px solid #D0D0D0;
+    width: max-content;
+    padding: 10px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+}
+h3{
+	margin:0px;
+}
+ul.newsSection{
+	margin:0px;
+	padding:5px 13px;
+}
+.newsSection li.newsPoint{
+	padding:7px 10px;
+}
+ul.newsSection{
+	list-style-type:none;
+}
+ul.newsSection > li{
+	text-indent:-15px;
+}
+ul.newsSection > li:before{
+	content:"-  ";
+	text-indent:-15px;
+}

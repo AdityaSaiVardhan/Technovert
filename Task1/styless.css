@@ -1,0 +1,57 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	background-color:#3298cc;
+	height:90px;
+	margin:0px;
+	padding-left:30px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:48px;
+}
+nav{
+    height:30px;
+	background-color:#333232;
+	font-family:Century Gothic;
+	padding:10px 10px 0px 10px;
+}
+nav a{
+	margin-left:25px;
+}
+p{
+	padding:0px 0px 0px 50px;
+	font-family:Arial, sans-serif;
+	font-size:13.64px;
+	width:1001px;
+}
+.Head{
+	padding-left:50px;
+	font-size:16.5px;
+	font-family:Arial, sans-serif;
+}
+a:link{
+color:white;
+text-decoration:none;
+font-weight:bolder;
+}
+#pageContent {
+    margin:30px 50px;
+    padding: 0px;
+}
+.key_points {
+    border: thin groove black;
+    width: max-content;
+    display: block;
+    padding: 0px 25px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+}
+
+.points .point{
+    margin-bottom: 20px;
+    list-style: outside '-  ';
+}
+
+

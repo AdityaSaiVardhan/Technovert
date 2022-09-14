@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+Header {
+  background-image: url("bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+#Primary ul{
+	float:right;
+	padding:0px 5px 5px 5px;;
+	margin-right:5cm;
+	border:thin solid #3b5888;
+	background-color:#3b5888;
+	position:relative;
+}
+#Primary ul li{
+	display:inline-block;
+}
+#Primary ul li a{
+	font-size:11px;
+	text-decoration:none;
+	color:white;
+	font-family:Verdana,sans-serif;
+}
+#Primary ul li.specifier:before{
+	content:'|';
+	font-size:10px;
+	padding:0px 5px 0px 0px;
+	color:white;
+	
+}
+.navigationSecondary{
+    padding:8px;
+    padding-right: 50px;
+    border: 0.5px solid white;
+}
+
+#logo{
+	position: absolute;
+    float:left;
+    top: 30px;
+    margin-left: 30px;
+}
+#Secondary{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 100%;
+    padding: 4px;
+}
+#Secondary a{
+	padding:0px;
+}

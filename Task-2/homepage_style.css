@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+}
+Header {
+  background-image: url("bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.container-1{
+	width:1150px;
+}
+#primaryNavigation ul{
+	float:right;
+	padding:0px 5px 5px 5px;
+	margin-right:0px;
+	border:thin solid #3b5888;
+	background-color:#3b5888;
+	position:relative;
+}
+#primaryNavigation ul li{
+	display:inline-block;
+}
+#primaryNavigation ul li a{
+	font-size:11px;
+	text-decoration:none;
+	color:white;
+	font-family:Verdana,sans-serif;
+}
+#primaryNavigation ul li.separator:before{
+	content:'|';
+	font-size:10px;
+	padding:0px 5px 0px 0px;
+	color:white;
+}
+
+
+#logo{
+	position: absolute;
+    float:left;
+    top:10px;
+    margin-left:10px;
+	width:210px;
+	height:140px;
+	
+}
+.container-2{
+	padding-top:50px;
+	padding-left:15.5pc;
+	padding-right:13pc;
+	height:500px;
+	width:904px;
+	 
+}
+#secondaryNavigation{
+    font-size: 100%;
+    padding: 4px;
+	height:35px;
+	border: 0.5px solid #2d3f57;
+}
+.container2Border{
+	background-color:#152a45;
+	padding:3px;
+	border: 0.5px solid #152a45;
+}
+
+#secondaryNavigation ul{
+	float:right;
+	
+}
+#secondaryNavigation ul li{
+	display:inline-block;
+	padding-top:10px;
+}
+#secondaryNavigation ul li a{
+	font-size:14.5px;
+	text-decoration:none;
+	color:#769cb6;
+	font-family:Verdana,sans-serif;
+	padding:0px 10px 0px 14px;;
+}
+#secondaryNavigation ul li.separator:before{
+	content:'|';
+	font-size:10px;
+	padding:0px 5px 0px 5px;;
+	color:white;
+}
+.brandMoto{
+	padding-top:30px;
+	padding-left:30px;
+	padding-bottom:15px;
+	
+}
+h2{
+	font-weight:bolder;
+	color:white;
+	letter-spacing:10px;
+	font-family:Trebuchet MS;
+	font-size:30px;
+}
+.brandInfo{
+	position:absolute;
+	border:thin solid black;
+	width:904px;
+	height:407px;
+	background-color:#10203a;
+	opacity:0.9;
+}
+#img1{
+	padding-left:35px;
+	padding-top:15px;
+}
+.img1Content{
+	padding-top:5px;
+	width:270px;
+	font-size:15px;
+	font-family:Lisboa Sans;
+	color:white;
+}
+
+
+
+#img2{
+	float:left;
+	padding-left:35px;
+}
+#img3{
+	padding-left:35px;
+}
+ .footer {
+	position: absolute;
+	left:6.6cm;
+	top: 630px;
+	width:897px;
+	display: flex;
+	background-color: rgba(22, 44, 65,0.7);
+	padding:4px;
+	justify-content: center;
+	color: rgb(160, 176, 210);
+}
+.footer a{
+	padding: 0px 5px;
+	color: white;
+}
+.footer a.separator {
+	padding: 0;
+}

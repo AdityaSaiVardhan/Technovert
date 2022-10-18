@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>ADDRESS BOOK</title>
+        <link rel="stylesheet" href="address_book_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="tempaddbook.js" type="module"></script>
+    </head>
+    <body>
+        <div class="pageTitle">Address Book</div>
+	    <div class="margin">
+				<div class="navigation">
+					<div class="logo">
+						<img src="blog-icon.png" alt="blog-icon"></a>
+					</div>
+					<ul class="navigationBar">
+					<li><a href="homepage.html">HOME</a></li>
+					<li class="active"><a href="address_book.html">+ADD</a></li>
+					</ul>
+				</div>
+	    </div>
+        
+        <div class="container">
+            <div class="address_book_information" id="address_book_information">
+                <h4>CONTACTS</h4>
+                <div class="contact_preview" id="contact_preview">
+					<div><span class="name">Chandermani Arora</span></div>
+					<div class="details">
+						<div><span class="email">chandermani@technovert.com</span></div>
+						<div><span class="mobile">+91 9292929292</span></div>
+					</div>
+				</div>
+            </div>
+            <div class="address_book_form_field">
+                <form id="address_book_form">
+                    <div class="input_data">
+                        <label for="contact_name_field">Name</label>
+                        <input type="text" id="contact_name_field" name="contact_name_field" class="input_textbox"> 
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_email_field">Email</label>
+                        <input type="text" id="contact_email_field" name="contact_email_field" class="input_textbox"> 
+                    </div>
+                    <div class="input_data">
+                        <div class="mobile_input_data">
+                            <label for="contact_mobile_field">Mobile</label>
+                            <input type="text" id="contact_mobile_field" name="contact_mobile_field" class="input_textbox"> 
+                        </div>
+                        <div class="landline_input_data">
+                            <label for="contact_landline_field">Landline</label>
+                            <input type="text" id="contact_landline_field" name="contact_landline_field" class="input_textbox"> 
+                        </div>   
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_website_field">Website</label>
+                        <input type="text" id="contact_website_field" name="contact_website_field" class="input_textbox"> 
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_address_field">Address</label>
+                        <textarea id="contact_address_field" name="contact_address_field" class="input_textbox" rows="5"></textarea> 
+                    </div>
+                    <button class="add_btn" id="add_btn">Add</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

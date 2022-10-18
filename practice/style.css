@@ -1,0 +1,9 @@
+
+#name_error,#email_error{
+	color:red;
+	display: none;
+}
+.details{
+	font-size: 20px;
+}
+

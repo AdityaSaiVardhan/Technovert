@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+}
+.pageTitle{
+	background-color:#3298cc;
+	height:80px;
+	margin:0px;
+	padding-left:30px;
+	padding-top:15px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:300%;
+}
+.margin{
+	height:fit-content;
+	background-color:#333232;
+}
+.logo{
+	position:absolute;
+	right:35px;
+	margin-top:8px;
+}
+.logo img{
+	width:100%;
+	height:100%;
+}
+.navigation li{
+	display:inline-block;
+}
+.navigationBar{
+	margin-left:20px;
+}
+.navigationBar li a{
+	padding:10px 15px;
+	font-family:Century Gothic;
+	font-weight:bolder;
+	color:white;
+	text-decoration:none;
+}
+.navigation ul.navigationBar{
+	font-size:16px;
+	padding:10px 0px;
+}
+.navigation ul li.active a{
+	margin:0px;
+	color:white;
+	border-left:4px solid white;
+	background-color: rgba(255,153,0,255);
+}
+.navigation ul li a:hover{
+	margin:0px;
+	color:white;
+	background-color: rgba(255,153,0,255);
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+}
+#empty_directory{
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size:16px;
+	font-weight: bolder;
+}
+.container{
+    display: flex;
+}
+.container .address_book_information{
+    width:33.33%;
+    margin:20px 0px 15px 25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.container .address_book_form_field{
+    width: 629.578px;
+    margin:20px 0px 15px 30px;
+    box-shadow:2px 0px 15px 7px rgba(151,150,150,255);
+}
+
+.address_book_information .contact_preview{
+	cursor: pointer;
+	border: 1px solid rgb(204, 204, 204);
+	height: 88px;
+	
+}
+.address_book_information .contact_preview >*{
+	padding: 0px 8px;
+	color: rgb(51, 51, 51);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.address_book_information .contact_preview .name{
+	font-size: 28px;
+}
+.address_book_information .contact_preview .details{
+	padding: 5px 0px 5px 16px;
+	font-size: 14px;
+}
+.contact_preview:hover{
+	background-color: rgb(206, 217, 242);
+}
+form{
+    margin:20px 0px 30px 25px;
+	font-size:12px;
+}
+form label{
+    font-family: system-ui, sans-serif;
+    font-weight:700;
+}
+.input_textbox{
+    display: block;
+    width:80%;
+    margin-bottom:5px;
+    padding: 8px 4px;
+    border:1px solid black;
+}
+.input_data:nth-child(3){
+    display: flex;
+}
+.input_data:nth-child(3) .mobile_input_data{
+    width:42%;
+}
+.input_data:nth-child(3) .landline_input_data{
+    width:42%;
+}
+.input_data:nth-child(3) .mobile_input_data .input_textbox{
+    width:91%;
+}
+.input_data:nth-child(3) .landline_input_data .input_textbox{
+    width:91%;
+}
+textarea{
+    resize:none;
+}
+.val_error{
+	color:red;
+	padding-left:2px;
+	display:none;
+}
+#add_btn{
+    margin-left:82%;
+    padding:5px 35px 5px 30px;
+    color:whitesmoke;
+    background-color:rgba(71,141,0,255);
+    border:1px solid rgba(71,141,0,255);
+}
+@media(max-width:768px){
+	.address_book_form_field{
+		width: 629.578px;
+	}
+	#add_btn{
+		margin-left:495.734px;
+	}
+	
+}

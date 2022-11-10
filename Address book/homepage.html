@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>HOMEPAGE</title>
+        <link rel="stylesheet" href="homepage_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="pageTitle">Address Book</div>
+	    <div class="margin">
+				<div class="navigation">
+					<div class="logo">
+						<img src="blog-icon.png" alt="blog-icon"></a>
+					</div>
+					<ul class="navigationBar">
+					<li class="active"><a href="homepage.html">HOME</a></li>
+					<li><a href="address_book.html">+ADD</a></li>
+					</ul>
+				</div>
+	    </div>
+        <div class="container"> 
+            <div class="address_book_information" id="address_book_information">
+                <h4>CONTACTS</h4>
+                <div id="empty_directory">No contacts to be displayed.Please add a contact.</div>
+                <div id="contactPreview">
+                    <div id="0" class="contact_preview">
+                        <div><span class="name">Naruto</span></div>
+                        <div class="details">
+                              <div><span class="email">naruto@gmail.com</span></div>
+                            <div><span class="mobile">7207847867</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_information_preview">
+                <div class="contact_details">
+                    <div class="contact_name_details"><span id="contact_name"></span></div>
+                    <div>Email:<span id="contact_email"></span></div>
+                    <div class="contact_numbers">
+                        <div>Mobile:<span id="contact_mobile"></span></div>
+                        <div>Landline:<span id="contact_landline"></span></div>
+                    </div>
+                    <div class="website_details">
+                        <div>Website:<span id="contact_website"></span></div>
+                    </div>
+                    <div>Address:</Address><span id="contact_address"></span></div>
+                </div>
+            </div>
+                <div class="options">
+                    <div class="functionality" id="edit">
+                        <img src="edit1.jpg">
+                    </div>
+                    <span class="edit">EDIT</span>
+                    <div class="functionality" id="delete">
+                        <img src="delete1.png">
+                    </div>
+                    <span class="delete">DELETE</span>
+                </div>
+            <div class="address_book_form_field">
+                <div id="close_btn">
+                    &#8855
+                </div>
+                <form id="address_book_form">
+                    <div class="input_data">
+                        <label for="contact_name_field">Name</label>
+                        <input type="text" id="contact_name_field" name="contact_name_field" class="input_textbox"> 
+                        <span id="contact_name_error" class="val_error"></span>
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_email_field">Email</label>
+                        <input type="text" id="contact_email_field" name="contact_email_field" class="input_textbox"> 
+                        <span id="contact_email_error" class="val_error"></span> 
+                    </div>
+                    <div class="input_data">
+                        <div class="mobile_input_data">
+                            <label for="contact_mobile_field">Mobile</label>
+                            <input type="text" id="contact_mobile_field" name="contact_mobile_field" class="input_textbox"> 
+                            <span id="contact_mobile_error" class="val_error"></span> 
+                        </div>
+                        <div class="landline_input_data">
+                            <label for="contact_landline_field">Landline</label>
+                            <input type="text" id="contact_landline_field" name="contact_landline_field" class="input_textbox"> 
+                            <span id="contact_landline_error" class="val_error"></span> 
+                        </div>   
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_website_field">Website</label>
+                        <input type="text" id="contact_website_field" name="contact_website_field" class="input_textbox"> 
+                        <span id="contact_website_error" class="val_error"></span> 
+                    </div>
+                    <div class="input_data">
+                        <label for="contact_address_field">Address</label>
+                        <textarea id="contact_address_field" name="contact_address_field" class="input_textbox" rows="5"></textarea> 
+                        <span id="contact_address_error" class="val_error"></span> 
+                    </div>
+                    <input type="button" class="update_btn" id="update_btn" value="Update">
+                    <input type="button" class="cancel_btn" id="cancel_btn" value="Cancel">
+                </form>
+            </div>
+        </div>
+        <script src="dist/homepagefile.js"></script>
+    </body>
+</html>

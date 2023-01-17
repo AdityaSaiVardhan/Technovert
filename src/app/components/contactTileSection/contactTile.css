@@ -1,0 +1,37 @@
+
+.container .address_book_information{
+    width:29%;
+    margin:20px 0px 15px 25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.container .address_book_form_field{
+    width: 699.391px;
+    margin:20px 150px 15px 25px;
+    box-shadow:2px 0px 15px 7px rgba(151,150,150,255);
+}
+.address_book_information .contact_preview{
+	cursor: pointer;
+	border: 1px solid rgb(204, 204, 204);
+	height: 88px;
+}
+.address_book_information .contact_preview >*{
+	padding: 0px 8px;
+	color: rgb(51, 51, 51);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.address_book_information .contact_preview .name{
+	font-size: 28px;
+}
+
+.address_book_information .contact_preview .details{
+	padding: 5px 0px 5px 16px;
+	font-size: 14px;
+}
+.contact_preview.active{
+	background-color: rgb(206, 231, 242);
+}
+.contact_preview:hover{
+	background-color: rgb(206, 217, 242);
+}

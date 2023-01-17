@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+}
+.pageTitle{
+	background-color:#3298cc;
+	height:80px;
+	margin:0px;
+	padding-left:30px;
+	padding-top:15px;
+	color:white;
+	font-family:Century Gothic;
+	font-size:300%;
+}

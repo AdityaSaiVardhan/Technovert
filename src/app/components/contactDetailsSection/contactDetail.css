@@ -1,0 +1,52 @@
+.container .contact_information_preview{
+    width:33.33%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:20px 50px 15px 45px;
+}
+
+.contact_details .contact_name_details{
+	font-size:28px;
+	margin-bottom:10px;
+}
+.contact_details .contact_numbers{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.contact_details .website_details{
+	margin-bottom: 10px;
+}
+.contact_information_preview{
+	display: flex;
+}
+.contact_information_preview .options{
+	display: flex;
+	margin-left:100px;
+}
+.options{
+	width: 33.33%;
+	display: flex;
+	margin-top: 25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.options #edit img{
+	width:18px;
+	height: 18px;
+	margin-right: 3px;
+	transform: rotate(-13deg);
+}
+.options #delete img{
+	width:15px;
+	height: 25px;
+	margin-top:-7px;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+.options .edit{
+	margin-top:1px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.options .delete{
+	font-size: 14px;
+	font-weight:500
+}

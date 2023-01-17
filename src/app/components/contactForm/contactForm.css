@@ -1,0 +1,59 @@
+form{
+    margin:0px 0px 10px 20px;
+	font-size:12px;
+    padding-top: 15px;
+    padding-bottom:5px ;
+}
+form label{
+    font-family: system-ui, sans-serif;
+    font-weight:700;
+}
+.input_textbox{
+    display: block;
+    width:80%;
+    margin-bottom:5px;
+    padding: 8px 4px;
+    border:1px solid black;
+}
+.input_data:nth-child(3){
+    display: flex;
+}
+.input_data:nth-child(3) .mobile_input_data{
+    width:42%;
+}
+.input_data:nth-child(3) .landline_input_data{
+    width:42%;
+}
+.input_data:nth-child(3) .mobile_input_data .input_textbox{
+    width:91%;
+}
+.input_data:nth-child(3) .landline_input_data .input_textbox{
+    width:91%;
+}
+textarea{
+    resize:none;
+}
+.val_error{
+	color:red;
+	padding-left:2px;
+}
+#address_book_form .action_buttons{
+    display: inline-flex;
+    margin-left: 55%;
+}
+#add_btn{
+    margin-left: 75px;
+    padding:5px 35px 5px 30px;
+    color:whitesmoke;
+    background-color:rgba(71,141,0,255);
+    border:1px solid rgba(71,141,0,255);
+}
+#cancel_btn{
+	margin-left: 10px;
+	padding:5px 35px 5px 30px;
+    color:black;
+    border:1px solid rgba(255,255,255,255);
+}
+.required{
+    color: red;
+}

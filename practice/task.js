@@ -11,7 +11,7 @@ $('#Add').click(function(){
    var dataentered= retrieveData();
    var readData=readDatafromLS(dataentered);
    console.log(dataentered);
-   console.log(readData);
+   console.log(readData)
 })
 
 function retrieveData(){
